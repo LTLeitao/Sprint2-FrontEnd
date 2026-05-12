@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Galeria</title>
+</head>
+<body>
+    <div class="phone gallery-screen">
+        <section class="gallery-header">
+            <div>
+                <h1>Galeria</h1>
+            </div>
+
+            <div class="gallery-icons">
+                <button>
+                    <i class="fa-solid fa-table-cells"></i>
+                </button>
+
+                <button>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </button>
+            </div>
+        </section>
+
+        <section class="gallery-tabs">
+            <button class="active-tab">
+                Galeria
+            </button>
+
+            <a href="albuns.html" class="tab-link">
+                Álbuns
+            </a>
+
+            <a href="favoritos.html" class="tab-link">
+                Favoritos
+            </a>
+        </section>
+
+        <section class="gallery-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Pesquisar fotos, vídeos, documentos...">
+        </section>
+
+        <section class="gallery-section">
+            <p>Álbuns</p>
+            <div class="gallery-albums">
+                <div class="gallery-album purple-card">
+                    <span>Viagem 2025</span>
+                    <small>34 fotos</small>
+                </div>
+
+                <div class="gallery-album green-card">
+                    <span>Natureza</span>
+                    <small>126 fotos</small>
+                </div>
+
+                <div class="gallery-album orange-card">
+                    <span>Família</span>
+                    <small>89 fotos</small>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <p>Fotos recentes</p>
+            <div class="gallery-grid">
+                <div class="photo large purple-card">
+                    <input type="checkbox" id="fav1" class="favorite-checkbox">
+
+                    <label for="fav1" class="favorite-btn">
+                        <i class="fa-solid fa-heart"></i>
+                    </label>
+                </div>
+
+                <div class="photo green-card">
+                    <input type="checkbox" id="fav2" class="favorite-checkbox">
+
+                    <label for="fav2" class="favorite-btn">
+                        <i class="fa-solid fa-heart"></i>
+                    </label>
+                </div>
+
+                <div class="photo blue-card">
+                    <input type="checkbox" id="fav3" class="favorite-checkbox">
+
+                    <label for="fav3" class="favorite-btn">
+                        <i class="fa-solid fa-heart"></i>
+                    </label>
+                </div>
+
+                <div class="photo dark-green-card">
+                    <input type="checkbox" id="fav4" class="favorite-checkbox">
+
+                    <label for="fav4" class="favorite-btn">
+                        <i class="fa-solid fa-heart"></i>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <a href="../index.html">
+                <i class="fa-solid fa-house"></i>
+                Início
+            </a>
+
+            <a href="./galeria.html">
+                <i class="fa-solid fa-images"></i>
+                Galeria
+            </a>
+
+            <a href="./favoritos.html">
+                <i class="fa-solid fa-heart"></i>
+                Favoritos
+            </a>
+
+            <a href="./ocr.html">
+                <i class="fa-solid fa-text-height"></i>
+                OCR
+            </a>
+        </footer>
+    </div>
+</body>
+</html>

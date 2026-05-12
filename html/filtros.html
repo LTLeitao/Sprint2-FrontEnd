@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>Filtros</title>
+</head>
+<body>
+    <div class="phone filters-screen">
+        <a href="../index.html" class="back-btn">
+            <i class="fa-solid fa-arrow-left"></i>
+        </a>
+
+        <section class="filters-header">
+            <h1>Filtros</h1>
+
+            <button>
+                <i class="fa-solid fa-sliders"></i>
+            </button>
+        </section>
+
+        <section class="filter-preview purple-card">
+            <div class="preview-overlay"></div>
+
+            <span class="filter-badge">
+                Cyber Glow
+            </span>
+        </section>
+
+        <section class="filters-list">
+            <div class="filter-card active-filter">
+                <div class="filter-thumb purple-card"></div>
+                <p>Cyber</p>
+            </div>
+
+            <div class="filter-card">
+                <div class="filter-thumb orange-card"></div>
+                <p>Warm</p>
+            </div>
+
+            <div class="filter-card">
+                <div class="filter-thumb blue-card"></div>
+                <p>Cold</p>
+            </div>
+
+            <div class="filter-card">
+                <div class="filter-thumb green-card"></div>
+                <p>Nature</p>
+            </div>
+
+            <div class="filter-card">
+                <div class="filter-thumb dark-green-card"></div>
+                <p>Dark</p>
+            </div>
+        </section>
+
+        <section class="adjustments">
+            <div class="adjust-item">
+                <div class="adjust-info">
+                    <p>Brilho</p>
+                    <span>72%</span>
+                </div>
+
+                <input type="range" value="72">
+            </div>
+
+            <div class="adjust-item">
+                <div class="adjust-info">
+                    <p>Contraste</p>
+                    <span>58%</span>
+                </div>
+
+                <input type="range" value="58">
+            </div>
+
+            <div class="adjust-item">
+                <div class="adjust-info">
+                    <p>Saturação</p>
+                    <span>84%</span>
+                </div>
+
+                <input type="range" value="84">
+            </div>
+        </section>
+
+        <section class="filters-actions">
+            <button class="reset-filter">
+                Resetar
+            </button>
+
+            <button class="apply-filter">
+                Aplicar filtro
+            </button>
+        </section>
+    </div>
+</body>
+</html>

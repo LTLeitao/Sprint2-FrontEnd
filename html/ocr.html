@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>OCR</title>
+</head>
+<body>
+    <div class="phone ocr-screen">
+        <a href="../index.html" class="back-btn">
+            <i class="fa-solid fa-arrow-left"></i>
+        </a>
+
+        <section class="ocr-tags">
+            <span class="tag blue">
+                Detectando texto
+            </span>
+
+            <span class="tag blue">
+                3 parágrafos
+            </span>
+        </section>
+
+        <section class="ocr-area">
+            <div class="corner top-left"></div>
+            <div class="corner top-right"></div>
+            <div class="corner bottom-left"></div>
+            <div class="corner bottom-right"></div>
+
+            <div class="ocr-box">
+                <div class="ocr-lines">
+                    <div class="line large"></div>
+                    <div class="line full"></div>
+                    <div class="line medium"></div>
+                    <div class="line medium-2"></div>
+                    <div class="line small"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ocr-mode">
+            <button class="active-mode">
+                IA
+            </button>
+
+            <button>
+                Foto
+            </button>
+
+            <button>
+                Contínuo
+            </button>
+        </section>
+
+        <section class="ocr-result">
+            <div class="ocr-result-header">
+                <p>
+                    Texto extraído
+                </p>
+
+                <button>
+                    Copiar tudo
+                </button>
+            </div>
+
+            <div class="ocr-text">
+                <p>Data: 11/04/2026</p>
+                <p>Quantia total: R$342,00</p>
+                <p>Data limite: 14 de abril, 2026</p>
+            </div>
+
+            <div class="ocr-actions">
+                <button>
+                    Traduzir
+                </button>
+
+                <button>
+                    Compartilhar
+                </button>
+
+                <button class="save-btn">
+                    Salvar texto
+                </button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
