@@ -101,6 +101,12 @@ Projeto/
     ├── imagem4.png
 ```
 
+## 🌐 Acesse o Projeto
+
+O projeto está disponível online através do GitHub Pages:
+
+(https://ltleitao.github.io/Sprint2-FrontEnd/index.html)
+
 ## 👥 Participantes
 
 - **Leonardo Teodoro Leitão - RM 569724**
